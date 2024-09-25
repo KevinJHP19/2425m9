@@ -28,17 +28,25 @@ section{
     height: 100px;
     border: 2px solid;
     margin: 10px;
+    padding: 30px;
+}
+.buscador input{
+    width: 100%;
+    border-radius: 5px;
 }
 .contenido{
     border: 2px solid;
-    width: 100%;
+    width: 97%;
     height: 800px;
     margin: 30px;
+    
+    
 }
 .bloque2{
     border: 2px solid;
     width: 100%;
     height: 900px;
+    
 }
 /*items de menu*/
 h2{
@@ -50,7 +58,7 @@ h2{
     margin: 40px 10px 40px 10px;
     width: 90px;
 }
-.menu li{
+.menu li {
     
     font-size: 0.9em;
     letter-spacing: 0.075em;
@@ -58,8 +66,31 @@ h2{
     margin: 5px 10px 0px 10px;
     list-style: none;
     
+    
+    
 }
-
+a{
+    text-decoration: none;
+    color: rgb(61, 68, 73);
+}
+/* header */
+header ul{
+    display: flex;
+    
+    justify-content: space-between;
+    list-style: none;
+    
+}
+i{
+   margin: 5px 7px 5px 7px; 
+    color:rgb(61, 68, 73)
+}
+header ul li{
+    padding: 5px;
+}
+header{
+    border-bottom: 2px solid #f56a6a;
+}
 
     
 

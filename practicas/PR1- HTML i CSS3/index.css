@@ -7,6 +7,7 @@ body{
     display: flex;
     background-color: antiquewhite;
     font-size: 20px;
+    margin: 10px;
 
 }
 /* Bloques */
@@ -19,14 +20,14 @@ section{
     width: 300px;
     height: 600px;
     border: 2px solid;
-    
+    margin: 10px;
     background-color: #f5f6f7;
 }
 .buscador{
     width: 300px;
     height: 100px;
     border: 2px solid;
-    margin: 0;
+    margin: 10px;
 }
 .contenido{
     border: 2px solid;

@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: antiquewhite;
+    font-size: 20px;
+
+}
+/* Bloques */
+section{
+    width:  400px;
+    height: 900px;
+    border: 3px solid;   
+}
+.menu{
+    width: 300px;
+    height: 600px;
+    border: 2px solid;
+    
+    background-color: #f5f6f7;
+}
+.buscador{
+    width: 300px;
+    height: 100px;
+    border: 2px solid;
+    margin: 0;
+}
+.contenido{
+    border: 2px solid;
+    width: 100%;
+    height: 800px;
+    margin: 30px;
+}
+.bloque2{
+    border: 2px solid;
+    width: 100%;
+    height: 900px;
+}
+/*items de menu*/
+h2{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    line-height: 1.5;
+    font-size: 1.38889em;
+    border-bottom: solid 3px #f56a6a;
+    margin: 40px 10px 40px 10px;
+    width: 90px;
+}
+.menu li{
+    
+    font-size: 0.9em;
+    letter-spacing: 0.075em;
+    border-top: solid 1px rgba(210,215, 0.75);
+    margin: 5px 10px 0px 10px;
+    list-style: none;
+    
+}
+
+
+    
+

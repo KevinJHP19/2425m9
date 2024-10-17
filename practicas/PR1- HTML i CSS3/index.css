@@ -14,13 +14,13 @@ body{
 
 /* Bloques */
 
-
+/* Menu Lateral*/
 main{
     width:  400px;
     height: 900px;
     
     
-} /* Menu Lateral*/
+} 
 
 /* Buscador */
 .buscador{
